@@ -1,0 +1,113 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+}
+
+a, a:hover {
+	color:#744094;
+}
+
+/*---------------------------------------------------------------*/
+
+#mainnav {
+	color:#744094;
+}
+
+.navbar-brand {
+	font-size: 3em;
+	line-height: 0.6em;
+	font-variant: small-caps;
+}
+
+.navbar-brand a {
+	color:#744094;
+}
+
+.navbar-brand a:hover {
+	color:#744094;
+}
+
+/*---------------------------------------------------------------*/
+
+.sidebaritem {
+	margin-bottom: 15px;
+}
+
+.sidebarheader {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 17px;
+	margin-bottom: 2px;
+}
+
+
+/*---------------------------------------------------------------*/
+
+.resourcelink {
+	font-weight: bold;
+}
+
+/*---------------------------------------------------------------*/
+
+.mainitem {
+	margin-bottom: 1.25em;
+	
+}
+
+.mainheader {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 25px;
+	margin-bottom: 6px;
+
+}
+
+/*---------------------------------------------------------------*/
+
+.newsitem {
+	margin-bottom: 8px;
+}
+
+.newsdate {
+	font-weight: bold;
+}
+
+/*---------------------------------------------------------------*/
+
+.pub {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color:#000000;
+	
+}
+
+.pubtextsection {
+	padding-left: 0px;
+	color:#808080;
+}
+
+.pubtitle {
+	font-weight: bold;
+	color:#744094;
+}
+
+.pubvenue {
+	font-style: italic;
+	color:#000000;
+}
+
+.pubaward {
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 13px;
+	color:#000000;
+}
+
+/*---------------------------------------------------------------*/
+
+.project {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	color:#000000;
+	
+}

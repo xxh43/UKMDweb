@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0058)http://visual.cs.brown.edu/projects/articulations-webpage/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Unsupervised Kinematic Motion Detection for
+		Part-segmented 3D Shape Collections (SIGGRAPH 2022)</title>
+	<link rel="stylesheet" href="./src/main.css" type="text/css" charset="utf-8">
+
+</head>
+
+<body style="max-width: none;" data-new-gr-c-s-check-loaded="14.1001.0" data-gr-ext-installed="">
+	<div class="right-column main-content" style="max-width: 80em; margin: auto;; margin-top: 3em">
+
+		<h1>Unsupervised Kinematic Motion Detection for
+			Part-segmented 3D Shape Collections (SIGGRAPH 2022)</h1>
+		
+    <p class="phototext" style="max-width: 45em;">
+
+    <a href="https://www.linkedin.com/in/xianghao-xu-8b1024a6/">Xianghao Xu</a>, 
+		<a href="https://www.linkedin.com/in/yifan-ruan-4024891b0/">Yifan Ruan</a>, 
+		<a href="https://cs.brown.edu/people/ssrinath/">Srinath Sridhar</a>,
+		and <a href="https://dritchie.github.io/">Daniel Ritchie</a>
+		</p>
+		
+		<p>
+		<img src="./src/teaser-image.png" class="teaser-image" width="360px">
+		</p>
+		
+		<h2>Abstract</h2>
+		<p>
+			3D models of manufactured objects are important for populating
+			virtual worlds and for synthetic data generation for vision and ro-
+			botics. To be most useful, such objects should be articulated: their
+			parts should move when interacted with. While articulated object
+			datasets exist, creating them is labor-intensive. Learning-based pre-
+			diction of part motions can help, but all existing methods require
+			annotated training data. In this paper, we present an unsupervised
+			approach for discovering articulated motions in a part-segmented
+			3D shape collection. Our approach is based on a concept we call cat-
+			egory closure: any valid articulation of an object’s parts should keep
+			the object in the same semantic category (e.g. a chair stays a chair).
+			We operationalize this concept with an algorithm that optimizes
+			a shape’s part motion parameters such that it can transform into
+			other shapes in the collection. We evaluate our approach by using
+			it to re-discover part motions from the PartNet-Mobility dataset.
+			For almost all shape categories, our method’s predicted motion pa-
+			rameters have low error with respect to ground truth annotations,
+			outperforming two supervised motion prediction methods.
+		<h2>Presentation Video</h2>
+		
+		<video class="teaser-image main-video" width="100%" controls="" poster="./src/ph.png">
+			<source src="" type="video/mp4">
+		</video>
+		
+		<p>
+		<!-- <a href="">Video – 10 mins (MP4 _ MB)</a> -->
+    </p>
+
+		
+		<h2>Files</h2>
+		
+		<table style="min-width: 625px; margin: auto; text-align: center;">
+		<tbody>
+		<tr>
+			<td>
+				<a href="https://arxiv.org/abs/2206.08497" target="_blank"><img class="teaser-image" src="./src/paper.png" height="240px"></a>
+			</td>
+			<td>
+				<a href=""><img class="teaser-image" src="./src/ph.png" height="240px"></a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Paper (arXiv)<br>
+				<a href="https://arxiv.org/abs/2206.08497">arXiv</a>
+			</td>
+			<td>
+				Slides<br>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+    
+    
+		<h2>Bibtex</h2>
+		<pre style="max-width: 700px; margin: auto;">@inproceedings{,<br>  author    = "Xianghao Xu and Yifan Ruan and Srinath Sridhar and Daniel Ritchie", <br>  title     = "Unsupervised Kinematic Motion Detection 
+			for Part-segmented 3D Shape Collections", <br>  booktitle = "SIGGRAPH", <br>  year = "2022"<br>}</pre>
+    
+    <h2>Source Code</h2>
+
+		<p><a href="https://github.com/xxh43/UKMD">Github</a></p>
+		
+
+		<h2>Acknowledgements</h2>
+		
+		<p>
+			This work was funded in part by NSF Award #1941808. Daniel
+			Ritchie is an advisor to Geopipe and owns equity in the company.
+			Geopipe is a start-up that is developing 3D technology to build
+			immersive virtual copies of the real world with applications in
+			various fields, including games and architecture. Srinath Sridhar
+			was supported by a Google Research Scholar Award.
+		</p>
+		
+		<table style="min-width: 625px; margin: auto; text-align: center;">
+			<tbody>
+				<tr>
+					<td>
+						<a href="https://cs.brown.edu"><img src="./src/brownLogo.png" height="50px"></a>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<!-- Little bit of space -->
+		<p></p>
+		
+	</div>
+</body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XHPX6WSV51"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XHPX6WSV51');
+</script>
+
+
+</html>
+
